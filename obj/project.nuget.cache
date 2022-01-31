@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sh9IiRJxb3ET6A6imNSLVwCofJ839uAE24wfU1pWmcLl7Ren7MfF4N1PTpf+EkEf9+CGXHhMZCfYfbhUHRdNpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\5431\\Documents\\Programming Files\\Backend Development\\Projects\\Budgeteer_REST\\Budgeteer_REST.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\5431\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.17\\microsoft.netcore.app.host.win-x64.3.1.17.nupkg.sha512"
+  ],
+  "logs": []
+}
