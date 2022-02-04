@@ -23,6 +23,7 @@ namespace Budgeteer_REST
         public IConfiguration Configuration { get; set; }
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IPasswordHasher<AppUser>, PasswordHasher>();
             services.AddIdentityCore<AppUser>(opts =>
             {
                 opts.Password.RequireUppercase = false;
@@ -53,7 +54,7 @@ namespace Budgeteer_REST
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapFallbackToController("NotFound", "Home");
+                //endpoints.MapFallbackToController("NotFound", "Home");
             });
         }
     }
